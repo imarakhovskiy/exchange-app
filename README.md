@@ -1,4 +1,7 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app), using the [Redux](https://redux.js.org/) and [Redux Toolkit](https://redux-toolkit.js.org/) template.
+To launch project create .env file in root file and put this lines inside:
+
+REACT_APP_API_URL= https://involve-it.com/test_front/api
+NODE_PATH=./src
 
 ## Available Scripts
 

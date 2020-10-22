@@ -1,0 +1,57 @@
+@import 'assets/styles/variables'
+@import 'assets/styles/common'
+
+@font-face
+  font-family: 'Roboto'
+  src: local('Roboto-Medium'), url(assets/fonts/Roboto/Roboto-Medium.ttf) format('truetype')
+
+html
+  font-size: 10px
+
+body
+  margin: 0
+  font-family: Roboto, -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen','Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif
+  -webkit-font-smoothing: antialiased
+  -moz-osx-font-smoothing: grayscale
+
+  color: #{$text-primary}
+
+  --text-primary: #{$text-primary}
+  --text-secondary: #{$text-secondary}
+  --text-gray: #{$text-gray}
+  --text-error: #{$text-error}
+
+  --input-border-primary: #{$input-border-primary}
+  --input-placeholder: #{$input-placeholder}
+
+  --button-text-primary: #{$button-text-primary}
+  --button-text-secondary: #{$button-text-secondary}
+
+  --button-background-primary: #{$button-background-primary}
+  --button-background-secondary: #{$button-background-secondary}
+
+  --button-border-primary: #{$button-border-primary}
+
+
+code
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace
+
+h1,h2,h3,h4,h5,h6,p
+  margin: 0
+  line-height: 1
+
+h2
+  font-weight: bold
+  font-size: 4.8rem
+  line-height: 5.6rem
+
+h3
+  font-weight: bold
+  font-size: 2.8rem
+  line-height: 3.3rem
+
+
+h5, p
+  font-weight: normal
+  font-size: 1.6rem
+  line-height: 1.9rem
